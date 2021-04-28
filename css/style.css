@@ -1,0 +1,155 @@
+body{
+	margin: 0;
+	padding: 0;
+    background-color: #333;
+}
+.Minsearch{
+	width: 200px;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #e2e4e5;
+    background-color: #ffffff08;
+    background-clip: padding-box;
+    border: 1px solid #ced4da61;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.form-control:hover{
+	border: 1px solid #18ff03;
+}
+.form-control:focus {
+    color: #f8f9fa;
+    background-color: #ffffff21;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 25%);
+}
+#liHover{
+    color: #fff;
+}
+#search:hover {
+color: rgb(0, 255, 42);
+}
+#liHover:hover a{
+	color: rgb(0, 255, 42);
+}
+#fastSection{
+	background-color: #2df337;
+	width: 100%;
+    margin-top: 68px;
+	
+}
+#Fastbg{
+    background-image: url('../img/fastBg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 300px;
+    width: 100%;
+}
+.overlay{
+    background-color: #0072eca4;
+    position: absolute;
+    height: 300px;
+    width: 100%;
+}
+
+#typing{
+    font-size: 30px;
+    color: #16e00f;
+}
+.typed-cursor {
+    color: rgb(255, 0, 0);
+    font-size: 30px;
+    font-weight: 800;
+}
+.searchDom{
+    margin-left: 150px;
+}
+#popularBg{
+    background-color: #888;
+    text-align: center;
+}
+#standerBg{
+    background-image: url('../img/cable.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 300px;
+    background-size: cover;
+    position: relative;
+    filter: blur(2px);
+}
+.cabaleOverlay{
+    background-color: #80bdff;
+    max-width: 300px;
+    max-height: 50px;
+    position: absolute;
+}
+.btn-outline-dark {
+    color: #343a40;
+    border-color: #343a4036;
+}
+.card{
+    border: none;
+}
+#getTuch{
+    background-image: url('../img/cable3.jpeg');
+    width: 100%;
+    height: 395px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+    display: flex;
+}
+.scBG{
+    background-color: rgba(28, 86, 119, 0.705);
+    position: absolute;
+    width: 100%;
+    height: 395px;
+
+}
+.owl-carousel .owl-dot{
+    outline: none;
+}
+#Quick{
+    background-color: rgb(78, 76, 76);
+}
+.allQuicktext{
+    background-color: rgba(68, 64, 64, 0.589);
+    border-radius: 5px;
+}
+footer{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    background-color: rgb(14, 13, 13);
+    overflow: hidden;
+    width: 100%;
+}      
+.rashid{
+	background: rgba(136, 136, 136, 0.61);
+}
+#sticker{
+	transition: 0.6s;
+}
+#account{
+    max-width: 100px;
+    max-height: 85px;
+    margin-top: -30px;
+}
+#logoHere{
+    background-color: #333;
+}
